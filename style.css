@@ -143,7 +143,7 @@ p {
     gap: 20px;
 }
 .industryPricing{
-    height: 440vh;
+    height: 460vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -309,7 +309,7 @@ p {
     flex-direction: column;
     text-align: left;
     margin: 1rem;
-    gap: 1.3rem;
+    gap: 1rem;
 }
 .form-details input{
     border-style: none;
@@ -320,7 +320,7 @@ p {
     background-color:#3F95E6;
     color: #fff;
     border-style: none;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .ending-tag{
     display: flex;
@@ -346,7 +346,108 @@ p {
     flex-direction: column;
     gap: 1rem;
 }
- @media screen and (max-width:768){
-    
+ @media (max-width:683px) {
+*{
+    /* border: 1px solid crimson; */
+}
 
+.navbar{
+    gap: .5rem;
+}
+.links, .theRest p{
+    display: none;
+}
+
+.topButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 70vh;
+}
+.first, .overlay{
+    height: 55%;
+}
+.topic{
+    height: 135vh;
+    text-align: center;
+}
+.topicButtons{
+    align-items: center;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   left: 11%;
+    width: 80%;
+}
+.container{
+    height: 250vh;
+}
+.industryPricing{
+    height: 860vh;
+}
+.middleCards{
+    flex-direction: column;
+}
+.peopleCards{
+    flex-direction: column;
+    height: 220vh;
+}
+.logosPlusSub{
+    width: 90%;
+}
+.subscribe{
+    flex-direction: column;
+    padding: 0.2rem ;
+    }
+.input-subscribe{
+    width: 90%;
+}
+.pricingCards{
+    flex-direction: column;
+    gap: 1rem;
+}
+.pricingCard{
+    
+    gap: 0.3rem;
+}
+.world-img{
+    flex-direction: column-reverse;
+    height: 100vh;
+    
+}
+.worldText{
+    width: 90%;
+    margin: 1rem;
+    height: auto;
+}
+.world-img img{
+    width: 100%;
+    height: auto;
+}
+.appointment-form-parent{
+   height: 100vh;
+    
+}
+.appointment-form{
+    width: 98%;
+}
+.appointment-form img{
+    width: 20%;
+}
+.form-details{
+    width: 80%;
+    margin: 2px;
+}
+.ending-tag{
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+   
+}
+.footer{
+    flex-direction: column;
+    gap: .9rem;
+}
 }
